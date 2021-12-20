@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.dependency 'HsToolKit.swift', :podspec => "https://github.com/DAOCUONG/hs-tool-kit-ios/blob/master/HsToolKit.swift.podspec"
+  s.dependency 'HsToolKit.swift', :git => "https://github.com/DAOCUONG/hs-tool-kit-ios.git"
   s.dependency 'RxSwift', '~> 5.0'
   s.dependency 'RxRelay', '~> 5.0'
   s.dependency 'GRDB.swift', '~> 5.0'
